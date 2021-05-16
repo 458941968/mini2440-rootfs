@@ -32,4 +32,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/hyq/workspace/deploy/alsa/lib'
+libdir='/usr/share/alsa/lib'

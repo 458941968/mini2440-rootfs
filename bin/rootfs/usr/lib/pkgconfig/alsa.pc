@@ -1,5 +1,5 @@
-prefix=/home/hyq/workspace/deploy/alsa
-exec_prefix=/home/hyq/workspace/deploy/alsa
+prefix=/usr/share/alsa
+exec_prefix=/usr/share/alsa
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
 

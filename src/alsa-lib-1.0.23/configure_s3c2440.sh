@@ -1,1 +1,1 @@
-./configure --host=arm-linux --prefix=/user/share/alsa  --disable-python
+./configure --host=arm-linux --prefix=/usr/share/alsa  --disable-python

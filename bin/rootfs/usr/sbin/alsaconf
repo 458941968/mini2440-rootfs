@@ -19,7 +19,7 @@
 
 export TEXTDOMAIN=alsaconf
 
-prefix=/home/hyq/workspace/deploy/alsa
+prefix=/usr/share/alsa
 exec_prefix=${prefix}
 bindir=${exec_prefix}/bin
 sbindir=${exec_prefix}/sbin
@@ -111,7 +111,7 @@ alsa_gid=0
 alsa_mode=0666
 legacy_probe_card=""
 LOGFILE=""
-TESTSOUND="/home/hyq/workspace/deploy/alsa/share/test.wav"
+TESTSOUND="/usr/share/alsa/share/test.wav"
 try_all_combination=0
 resources="false"
 

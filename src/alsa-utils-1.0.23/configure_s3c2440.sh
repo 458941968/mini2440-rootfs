@@ -1,1 +1,1 @@
-./configure --host=arm-linux --prefix=/user/share/alsa CFLAGS="-I/user/share/alsa/include" LDFLAGS="-L/user/share/alsa/lib -lasound "  --disable-alsamixer --disable-xmlto
+./configure --host=arm-linux --prefix=/usr/share/alsa CFLAGS="-I/usr/share/alsa/include" LDFLAGS="-L/usr/share/alsa/lib -lasound "  --disable-alsamixer --disable-xmlto
