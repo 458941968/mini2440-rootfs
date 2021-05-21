@@ -35,7 +35,7 @@ ln -s /dev/pcmC0D0c /dev/snd/pcmC0D0c
 ln -s /dev/pcmC0D0p /dev/snd/pcmC0D0p
 ln -s /dev/timer /dev/snd/timer
 
-/sbin/mount -t yaffs2 /dev/mtdblock5 /app
+/bin/mount -t yaffs2 /dev/mtdblock5 /app
 
 /sbin/ifconfig lo 127.0.0.1
 /etc/init.d/ifconfig-eth0
