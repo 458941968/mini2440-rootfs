@@ -1095,12 +1095,16 @@ static void set_params(void)
 		else
 			period_frames = buffer_frames / 4;
 	}
+
+	//hyq
+	printf("hyq[%s:%d]------period_frames=%d\n", __FUNCTION__, __LINE__, period_frames);
 	if (period_time > 0)
 		err = snd_pcm_hw_params_set_period_time_near(handle, params,
 							     &period_time, 0);
 	else
 		err = snd_pcm_hw_params_set_period_size_near(handle, params,
 							     &period_frames, 0);
+	printf("hyq[%s:%d]------period_frames=%d\n", __FUNCTION__, __LINE__, period_frames);
 	assert(err >= 0);
 	if (buffer_time > 0) {
 		err = snd_pcm_hw_params_set_buffer_time_near(handle, params,
